@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORMS</title>
+  </head>
+  <body>
+    <!--Methods: POST, GET, PUT, PATCH, DELETE   -->
+    <form action="responsive-html.html" method="">
+      <fieldset>
+        <legend>Registeration Form</legend>
+        <label for="firstName">First Name</label>
+        <input
+          type="text"
+          name="firstName"
+          id="firstName"
+          placeholder="Enter your first name"
+          value=""
+          required
+        />
+
+        <br /><br />
+
+        <label for="email">Last Name</label>
+        <input
+          type="text"
+          name="lastName"
+          id="lastName"
+          placeholder="Enter your last name"
+        />
+
+        <br /><br />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email address"
+        />
+
+        <br /><br />
+
+        <label for="phoneNumber">Phone number</label>
+        <input
+          type="number"
+          name="phoneNumber"
+          id="phoneNumber"
+          placeholder="Enter your phone number"
+        />
+
+        <br /><br />
+
+        <label for="country">Country</label>
+        <select name="country" id="country">
+          <option value="">Select your country</option>
+          <option value="Afghanistan">Afghanistan</option>
+          <option value="Nigeria">Nigeria</option>
+          <option value="Ghana">Gh</option>
+          <option value="Niger">Niger</option>
+          <option value="United Kingdom">United Kingdom</option>
+          <option value="Burkino Faso">Burkino Faso</option>
+          <option value="France">France</option>
+          <option value="Isreal">Isreal</option>
+        </select>
+
+        <br /><br />
+
+        <label for="gender">Gender</label><br />
+        <input type="radio" name="gender" id="gender" value="male" /> Male
+        <br />
+        <input type="radio" name="gender" id="gender" value="female" /> Female
+
+        <br /><br />
+
+        <label for="">Hobbies</label><br />
+        <input type="checkbox" name="singing" id="singing" value="singing" />
+        Singing <br />
+        <input type="checkbox" name="cooking" id="cooking" value="cooking" />
+        Cooking <br />
+        <input type="checkbox" name="football" id="football" value="football" />
+        Football<br />
+        <input type="checkbox" name="sleeping" id="sleeping" value="sleeping" />
+        Sleeping<br />
+        <input type="checkbox" name="eating" id="eating" value="eating" />
+        Eating
+        <br />
+        <br />
+
+
+
+        <label for="address">Address</label><br>
+        <textarea name="address" id="address" cols="30" rows="5" placeholder="Enter your home address..."></textarea>
+
+        <br />
+        <br />
+
+        
+
+        <input type="submit" value="Register" />
+        <input type="reset" value="Reset form" />
+      </fieldset>
+    </form>
+  </body>
+</html>
